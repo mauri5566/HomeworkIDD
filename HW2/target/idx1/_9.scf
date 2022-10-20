@@ -1,0 +1,173 @@
+cfs entry for: _9.fld
+doc 0
+  field 1
+    name titolo
+    type string
+    value maurizio.txt
+doc 1
+  field 1
+    name titolo
+    type string
+    value michele.txt
+doc 2
+  field 1
+    name titolo
+    type string
+    value brini.txt
+END
+checksum 00000000001048314524
+cfs entry for: _9.inf
+number of fields 2
+  name contenuto
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  name titolo
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+checksum 00000000001782686166
+cfs entry for: _9.len
+field contenuto
+  type NUMERIC
+  minvalue 4
+  pattern 0
+0
+T
+5
+T
+4
+T
+END
+checksum 00000000003707380001
+cfs entry for: _9.pst
+field contenuto
+  term assegnato
+    doc 1
+      freq 1
+      pos 5
+  term brini
+    doc 2
+      freq 1
+      pos 7
+  term chiamo
+    doc 0
+      freq 1
+      pos 2
+  term ciao
+    doc 0
+      freq 1
+      pos 0
+  term cognome
+    doc 2
+      freq 1
+      pos 3
+  term di
+    doc 2
+      freq 1
+      pos 4
+  term ereditato
+    doc 2
+      freq 1
+      pos 1
+  term hanno
+    doc 1
+      freq 1
+      pos 4
+  term ho
+    doc 2
+      freq 1
+      pos 0
+  term il
+    doc 1
+      freq 1
+      pos 6
+    doc 2
+      freq 1
+      pos 2
+  term maurizio
+    doc 0
+      freq 1
+      pos 3
+  term mi
+    doc 0
+      freq 1
+      pos 1
+    doc 1
+      freq 1
+      pos 3
+  term michele
+    doc 1
+      freq 1
+      pos 8
+  term mio
+    doc 2
+      freq 1
+      pos 5
+  term nato
+    doc 1
+      freq 1
+      pos 2
+  term nome
+    doc 1
+      freq 1
+      pos 7
+  term padre
+    doc 2
+      freq 1
+      pos 6
+  term quando
+    doc 1
+      freq 1
+      pos 0
+  term sono
+    doc 1
+      freq 1
+      pos 1
+field titolo
+  term brini.txt
+    doc 2
+  term maurizio.txt
+    doc 0
+  term michele.txt
+    doc 1
+END
+checksum 00000000002850149014
+table of contents, size: 4
+  filename: _9.fld
+    start: 22
+    end: 265
+  filename: _9.inf
+    start: 287
+    end: 1044
+  filename: _9.len
+    start: 1066
+    end: 1168
+  filename: _9.pst
+    start: 1190
+    end: 2320
+table of contents begins at offset: 0000000000000002320
